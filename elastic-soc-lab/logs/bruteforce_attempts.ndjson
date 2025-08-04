@@ -1,0 +1,6 @@
+{"@timestamp":"2025-08-01T12:00:00Z","event":{"action":"authentication_failed"},"user":{"name":"admin"},"source": {"ip":"192.168.1.10"},"message": "Failed login for user admin"}
+{"@timestamp":"2025-08-01T12:00:05Z","event":{"action":"authentication_failed"},"user":{"name":"root"},"source": {"ip":"192.168.1.10"},"message": "Failed login for user root"}
+{"@timestamp":"2025-08-01T12:00:10Z","event":{"action":"authentication_failed"},"user":{"name":"guest"},"source": {"ip":"192.168.1.10"},"message": "Failed login for user guest"}
+{"@timestamp":"2025-08-01T12:00:15Z","event":{"action":"authentication_failed"},"user":{"name":"admin"},"source": {"ip":"192.168.1.10"},"message": "Failed login for user admin"}
+"event":{"action":"authentication_failed"},"user":{"name":"root"},"source":
+{"@timestamp":"2025-08-01T12:00:20Z", {"ip":"192.168.1.10"},"message":"Failed login for user root"}
