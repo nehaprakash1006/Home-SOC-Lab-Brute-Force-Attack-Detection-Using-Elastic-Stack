@@ -12,7 +12,7 @@ Custom-generated `.ndjson` logs simulating failed SSH login attempts:
 {"@timestamp":"2025-08-01T12:00:00Z","event":{"action":"authentication_failed"},"user":{"name":"admin"},"source":{"ip":"192.168.1.10"}}
 {"@timestamp":"2025-08-01T12:00:05Z","event":{"action":"authentication_failed"},"user":{"name":"root"},"source":{"ip":"192.168.1.10"}}
 {"@timestamp":"2025-08-01T12:00:10Z","event":{"action":"authentication_failed"},"user":{"name":"guest"},"source":{"ip":"192.168.1.10"}}
-
+```
 ⚙️ Detection Rule
 Custom rule created in Elastic Security
 
