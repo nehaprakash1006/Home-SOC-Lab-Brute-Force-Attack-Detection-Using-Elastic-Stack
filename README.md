@@ -16,7 +16,7 @@ Custom-generated `.ndjson` logs using ChatGPT simulating failed SSH login attemp
 ## ⚙️ Detection Rule
 
 - Custom rule created in Elastic Security  
-- Triggers on `event.action: "authentication_failed"`  
+- Triggers when logs depicting a brute force attack are detected
 - Generates alerts based on frequency of failed logins  
 
 ---
@@ -41,7 +41,7 @@ Visualizations built in Kibana using Lens:
 
 ## 💡 Key Skills Practiced
 
-- Log ingestion via Kibana  
+- Manual ingestion of logs given an ndjson file
 - Writing KQL-based detection rules  
 - Managing alerts & cases in Elastic Security  
 - Creating Kibana dashboards  
