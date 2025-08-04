@@ -7,42 +7,42 @@ A mini SOC (Security Operations Center) lab setup by a student to simulate brute
 ## 🚀 What’s Included
 
 ### 📄 Simulated Logs  
-Custom-generated `.ndjson` logs simulating failed SSH login attempts:
+Custom-generated `.ndjson` logs simulating failed SSH login attempts: (here's an example)
 ```json
 {"@timestamp":"2025-08-01T12:00:00Z","event":{"action":"authentication_failed"},"user":{"name":"admin"},"source":{"ip":"192.168.1.10"}}
 {"@timestamp":"2025-08-01T12:00:05Z","event":{"action":"authentication_failed"},"user":{"name":"root"},"source":{"ip":"192.168.1.10"}}
 {"@timestamp":"2025-08-01T12:00:10Z","event":{"action":"authentication_failed"},"user":{"name":"guest"},"source":{"ip":"192.168.1.10"}}
 ```
-⚙️ Detection Rule
-Custom rule created in Elastic Security
+## ⚙️ Detection Rule
 
-Triggers on event.action: "authentication_failed"
+- Custom rule created in Elastic Security  
+- Triggers on `event.action: "authentication_failed"`  
+- Generates alerts based on frequency of failed logins  
 
-Generates alerts based on frequency of failed logins
+---
 
-📬 Alerts & 📁 Case Management
-Alerts created from detection rule
+## 📬 Alerts & 📁 Case Management
 
-Alerts escalated into cases with investigation notes
+- Alerts created from detection rule  
+- Alerts escalated into cases with investigation notes  
+- Cases reviewed and closed after analysis  
 
-Cases reviewed and closed after analysis
+---
 
-📊 Dashboards
+## 📊 Dashboards
+
 Visualizations built in Kibana using Lens:
 
-🔢 Count of Failed Logins Over Time
+- 🔢 Count of Failed Logins Over Time  
+- 👤 Most Targeted Usernames  
+- 🌍 Source IP Distribution  
 
-👤 Most Targeted Usernames
+---
 
-🌍 Source IP Distribution
+## 💡 Key Skills Practiced
 
-💡 Key Skills Practiced
-Log ingestion via Kibana
-
-Writing KQL-based detection rules
-
-Managing alerts & cases in Elastic Security
-
-Creating Kibana dashboards
-
-Simulating real-world SOC workflows
+- Log ingestion via Kibana  
+- Writing KQL-based detection rules  
+- Managing alerts & cases in Elastic Security  
+- Creating Kibana dashboards  
+- Simulating real-world SOC workflows  
