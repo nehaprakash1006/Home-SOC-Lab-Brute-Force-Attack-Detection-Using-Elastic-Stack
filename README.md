@@ -7,7 +7,7 @@ A mini SOC (Security Operations Center) lab setup by a student to simulate brute
 ## 🚀 What’s Included
 
 ### 📄 Simulated Logs  
-Custom-generated `.ndjson` logs simulating failed SSH login attempts: (here's an example)
+Custom-generated `.ndjson` logs using ChatGPT simulating failed SSH login attempts: (here's an example)
 ```json
 {"@timestamp":"2025-08-01T12:00:00Z","event":{"action":"authentication_failed"},"user":{"name":"admin"},"source":{"ip":"192.168.1.10"}}
 {"@timestamp":"2025-08-01T12:00:05Z","event":{"action":"authentication_failed"},"user":{"name":"root"},"source":{"ip":"192.168.1.10"}}
