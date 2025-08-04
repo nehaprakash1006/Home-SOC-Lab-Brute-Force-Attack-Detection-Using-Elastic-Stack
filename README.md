@@ -1,4 +1,4 @@
-# 🛡️ Brute Force Detection Lab with Elastic Stack
+# 🛡️ Security Alerts Detection Lab with Elastic Stack
 
 A mini SOC (Security Operations Center) lab setup on my home lab to simulate brute force attack detection using the Elastic Stack (Elasticsearch + Kibana). This project includes uploading custom logs, detecting failed login attempts, generating alerts, managing cases, and building dashboards.
 
