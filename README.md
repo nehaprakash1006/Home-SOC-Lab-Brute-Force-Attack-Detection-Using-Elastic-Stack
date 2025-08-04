@@ -4,15 +4,21 @@ A mini SOC (Security Operations Center) lab setup by a student to simulate brute
 
 ---
 
-## 🚀 What’s Included
+## 📁 Project Folder Structure
 
-### 📄 Simulated Logs  
-Custom-generated `.ndjson` logs using ChatGPT simulating failed SSH login attempts: (here's an example)
-```json
-{"@timestamp":"2025-08-01T12:00:00Z","event":{"action":"authentication_failed"},"user":{"name":"admin"},"source":{"ip":"192.168.1.10"}}
-{"@timestamp":"2025-08-01T12:00:05Z","event":{"action":"authentication_failed"},"user":{"name":"root"},"source":{"ip":"192.168.1.10"}}
-{"@timestamp":"2025-08-01T12:00:10Z","event":{"action":"authentication_failed"},"user":{"name":"guest"},"source":{"ip":"192.168.1.10"}}
-```
+This repository contains the following directories to organize different components of the mini SOC lab:
+
+| Folder Name        | Description |
+|--------------------|-------------|
+| `logs/`            | Contains the `.ndjson` log file uploaded to Elastic, simulating brute force authentication failures. |
+| `detection_rules/` | Contains the detection rule configured to catch repeated failed login attempts. |
+| `alerts/`          | Screenshots of the Security → Alerts page showing the triggered alerts. |
+| `case/`            | Evidence of case management — includes a closed case with remarks after investigating the alerts. |
+| `dashboard/`       | Exported dashboard and screenshots showing Kibana Lens visualizations created for case analysis and it's presentation. |
+| `dataview/`        | Shows the Data View (field names and data types) generated after uploading the log data. |
+
+---
+
 ## ⚙️ Detection Rule
 
 - Custom rule created in Elastic Security  
