@@ -2,6 +2,8 @@
 
 A mini SOC (Security Operations Center) lab setup on my home lab to simulate brute force attack detection using the Elastic Stack (Elasticsearch + Kibana). This project includes uploading custom logs, detecting failed login attempts, generating alerts, managing cases, and building dashboards.
 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a72d0e69-0af6-401a-ae1a-415cacc0b32d" />
+
 ---
 
 ## 📁 Project Folder Structure
